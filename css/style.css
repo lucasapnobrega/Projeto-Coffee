@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Rozha One', serif;
+    --color-dark1: #3A1C00;
+    --color-dark2: #1B1107;
+    --color-light1: #E7D7BC;
+    --color-light2: #DDB288;
+}
+
+.container {
+    padding-right: 8rem;
+    padding-left: 8rem;
+}

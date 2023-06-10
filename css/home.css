@@ -1,0 +1,91 @@
+.home {
+    padding-top: 2.5rem;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.home-title {
+    color: white;
+    font-size: 4rem;
+    font-family: var(--secondary-font);
+}
+
+.home-description {
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.home-btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-order {
+    background-color: white;
+    color: black;
+    padding: .4rem 1.4rem;
+    font-size: 1.2rem;
+    transition: all .6s;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-order i {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.btn-order:hover {
+    background-color: transparent;
+    color: white;
+    outline: 1px solid white;
+}
+
+.btn-explore {
+    background-color: transparent;
+    padding: 0.4rem 1.4rem;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.btn-explore i {
+    font-size: 1.5rem;
+    margin: .5rem 0 .5rem .5rem;
+}
+
+.btn-explore:hover {
+    background-color: white;
+    color: black;
+}
+
+.home-information {
+    display: flex;
+    color: white;
+    gap: 8.5rem;
+}
+
+.home-information-article {
+    text-align: center;
+}
+
+.home-information-title {
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: var(--secondary-font);
+}
+
+.home-information-subtitle {
+    font-weight: lighter;
+    font-family: var(--secondary-font);
+}
+
+.information-plus {
+    font-weight: normal;
+    color: rgb(109, 108, 108);
+    font-size: 2rem;
+}
